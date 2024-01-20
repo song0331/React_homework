@@ -1,6 +1,6 @@
-import "./style.css"
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./style.css"
 
 
 const root = document.getElementById('root');
@@ -24,6 +24,15 @@ const createApp = (
             required
             aria-invalid
             aria-describedby="error_id"
+            onInput={(e) => {
+              let value = e.target.value;
+              const userId = document.querySelector('#error_id');
+              const pwRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,16}$/;
+              const isValidPassword = value => pwRegex.test(value);
+
+              if (!value || !isValidPassword(value)) userId.classList.add('is_invalid')
+              else userId.classList.remove('is_invalid')
+            }}
           />
           <span className="error_message" id="error_id">
             6자 이상 16자 이하의 영문 혹은 영문과 숫자를 조합
@@ -40,6 +49,15 @@ const createApp = (
             required
             aria-invalid
             aria-describedby="error_pw"
+            onInput={(e) => {
+              let value = e.target.value;
+              const userPw = document.querySelector('#error_pw');
+              const pwRegex = /^(?=.*[A-Za-z\d!@#$%^&*])[A-Za-z\d!@#$%^&*]{6,16}$/;
+              const isValidPassword = value => pwRegex.test(value);
+
+              if (!value || !isValidPassword(value)) userPw.classList.add('is_invalid')
+              else userPw.classList.remove('is_invalid')
+            }}
           />
           <span className="error_message" id="error_pw">
             특수문자 포함 최소 6자 - 최대 16자
