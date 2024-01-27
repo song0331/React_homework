@@ -1,0 +1,107 @@
+[
+  {
+    "id": 0,
+    "delivery_type": "샛벽배송",
+    "product_name": "[KF365] 1+등급 무항생제 대란 20구",
+    "product_price": "7,190",
+    "product_descriptions": "1구 당 판매가 :  360원"
+  },
+  {
+    "id": 1,
+    "delivery_type": "샛벽배송",
+    "product_name": "[KF365] 양념 소불고기 1kg (냉장)",
+    "product_price": "17,991",
+    "product_descriptions": "100g당 : 1,999원"
+  },
+  {
+    "id": 2,
+    "delivery_type": "샛벽배송",
+    "product_name": "[이연복의 목란] 짬뽕 2인분 (맵기선택)",
+    "product_price": "12,420",
+    "product_descriptions": "입맛에 맞게 고르는 인기 메뉴"
+  },
+  {
+    "id": 3,
+    "delivery_type": "샛벽배송",
+    "product_name": "[Kurly's] 동물복지 유정란 20구",
+    "product_price": "9,490",
+    "product_descriptions": "1구 당 판매가:  499.5원"
+  },
+  {
+    "id": 4,
+    "delivery_type": "샛벽배송",
+    "product_name": "[KF365] DOLE 실속 바나나 2종",
+    "product_price": "3,480",
+    "product_descriptions": "매일 즐기는 달콤한 포만감"
+  },
+  {
+    "id": 5,
+    "delivery_type": "샛벽배송",
+    "product_name": "[올마레] 춘천 국물 닭갈비 떡볶이",
+    "product_price": "11,220",
+    "product_descriptions": "닭갈비와 떡볶이의 오묘한 조화"
+  },
+  {
+    "id": 6,
+    "delivery_type": "샛벽배송",
+    "product_name": "유명산지 설향딸기 500g",
+    "product_price": "18,900",
+    "product_descriptions": "유명산지에서 전하는 제철 딸기"
+  },
+  {
+    "id": 7,
+    "delivery_type": "샛벽배송",
+    "product_name": "[사미헌] 갈비탕",
+    "product_price": "13,000",
+    "product_descriptions": "진짜 갈비로 우려낸 전통 갈비탕"
+  },
+  {
+    "id": 8,
+    "delivery_type": "샛벽배송",
+    "product_name": "[KF365] 1+ 한우 국거리 300g(냉장)",
+    "product_price": "11,900",
+    "product_descriptions": "100g당 가격 : 3,967원"
+  },
+  {
+    "id": 9,
+    "delivery_type": "샛벽배송",
+    "product_name": "[KF365] 한돈 삼겹살 구이용 600g~ (냉장)",
+    "product_price": "14,340",
+    "product_descriptions": "100g 당 판매가 :  2,390원"
+  },
+  {
+    "id": 10,
+    "delivery_type": "샛벽배송",
+    "product_name": "[KF365] 에어프라이어용 미니 돈까스 500g",
+    "product_price": "7,990",
+    "product_descriptions": "먹기 좋은 크기로, 에어프라이어로 간단하게!"
+  },
+  {
+    "id": 11,
+    "delivery_type": "샛벽배송",
+    "product_name": "[제주 삼다수] 그린 무라벨 (2L X 6개)",
+    "product_price": "6,040",
+    "product_descriptions": "매일 마시기 좋은 생수"
+  },
+  {
+    "id": 12,
+    "delivery_type": "샛벽배송",
+    "product_name": "고랭지 부사 사과 1.3kg (4~5입)",
+    "product_price": "19,900",
+    "product_descriptions": "\"최대혜택가 : 13,930원\""
+  },
+  {
+    "id": 13,
+    "delivery_type": "샛벽배송",
+    "product_name": "완숙토마토 1kg",
+    "product_price": "11,900",
+    "product_descriptions": "\"최대 혜택가: 8,330원\""
+  },
+  {
+    "id": 14,
+    "delivery_type": "샛벽배송",
+    "product_name": "[연세우유 x 마켓컬리] 전용목장우유 1.8L",
+    "product_price": "4,980",
+    "product_descriptions": "두고두고 즐기는 온 가족 우유 (100ml당 276원)"
+  }
+]
