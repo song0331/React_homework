@@ -1,3 +1,14 @@
+.Product_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 783px;
+  height: auto;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
 .product {
   cursor: pointer;
   width: 249px;
@@ -17,7 +28,9 @@
   word-break: keep-all;
 }
 
-.product_info div {
+.product_info div,
+.product_info h3,
+.product_info span {
   margin-bottom: 8px;
 }
 
