@@ -6,11 +6,11 @@ export default function Product() {
   return (
     <ul className='Product_wrapper'>
       {
-        product_data.map((item, index) => {
+        product_data.map((item) => {
           return (
             <li key={item.id} className="product">
               <a href="#">
-                <img src={`/images/${index + 1}.jpg`} alt={item.product_name} />
+                <img src={`/images/${item.id + 1}.jpg`} alt={item.product_name} />
                 <div className='product_info'>
                   <span className='delivery_type'>{item.delivery_type}</span>
                   <h3 className='product_name'>{item.product_name}</h3>
