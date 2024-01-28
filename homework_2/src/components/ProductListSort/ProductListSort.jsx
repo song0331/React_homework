@@ -1,4 +1,3 @@
-// import './ProductListSort.css'
 import 'ProductListSort/ProductListSort.css'
 
 export default function ProductListSort() {

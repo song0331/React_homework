@@ -1,7 +1,3 @@
-// import Pagination from '../Pagination/Pagination';
-// import Product from '../Product/Product';
-// import ProductListSort from '../ProductListSort/ProductListSort';
-// import './ProductList.css';
 import Pagination from 'Pagination/Pagination';
 import Product from 'Product/Product';
 import ProductListSort from 'ProductListSort/ProductListSort';
