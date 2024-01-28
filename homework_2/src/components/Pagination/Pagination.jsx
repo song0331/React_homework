@@ -10,7 +10,7 @@ export default function Pagination() {
       </li>
       <li>
         <a href="#">
-          <img src="/icons/next_page.svg" alt="다음 페이지로 이동" />
+          <img src="/icons/previous_page.svg" alt="이전 페이지로 이동" />
         </a>
       </li>
       <li>
@@ -30,7 +30,7 @@ export default function Pagination() {
       </li>
       <li>
         <a href="#">
-          <img src="/icons/previous_page.svg" alt="이전 페이지로 이동" />
+          <img src="/icons/next_page.svg" alt="다음 페이지로 이동" />
         </a>
       </li>
       <li>
