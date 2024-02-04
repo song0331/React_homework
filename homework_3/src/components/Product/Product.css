@@ -1,25 +1,3 @@
-/* .Product_wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 783px;
-  height: auto;
-  margin: auto;
-}
-
-.product {
-  cursor: pointer;
-  width: 249px;
-  height: 538px;
-}
-
-.product img {
-  width: 249px;
-  height: 320px;
-  border-radius: 5px;
-} */
-
 .product_info {
   height: 177px;
   padding-right: 20px;

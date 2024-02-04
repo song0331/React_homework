@@ -10,33 +10,7 @@
   /* border: 1px solid black; */
 }
 
-.product_list_sort :first-child {
-  color: var(--content, #333);
-  font-family: Pretendard;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 150%;
-}
-
-.sort_btn {
-  display: flex;
-  gap: 8px;
-  color: var(--gray-300, #A6A6A6);
-  font-family: Pretendard;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 150%;
-}
-
-.sort_btn button {
-  cursor: pointer;
-  border: none;
-  background: #fff;
-}
-
-.sort_btn :first-child {
+.is_active {
   color: var(--content, #333);
   font-family: Pretendard;
   font-size: 16px;
