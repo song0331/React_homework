@@ -20,13 +20,12 @@ export default function Product() {
     data().then((data) => {
       setOriginProduct(data);
       setProduct(data);
-      console.log('데이터 가져왔음');
     })
   }, [])
 
   return (
     <>
-      < ProductListSort product={product} setProduct={setProduct} originProduct={originProduct} />
+      < ProductListSort setProduct={setProduct} originProduct={originProduct} />
       <ul className={styles.Product_wrapper}>
 
         {product.length === 0 ? <h2 className={styles.loading}>로딩중...⏳</h2> :
