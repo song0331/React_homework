@@ -1,0 +1,19 @@
+.product_list_container {
+  width: 1050px;
+  height: 3132px;
+  /* background: green; */
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.product_list_title {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 48px 0;
+  color: var(--black, #000);
+  font-family: Pretendard;
+  font-size: 21.328px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}

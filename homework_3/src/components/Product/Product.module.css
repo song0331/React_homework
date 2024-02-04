@@ -1,0 +1,47 @@
+.loading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  height: 100vh;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.Product_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 783px;
+  height: auto;
+  margin: auto;
+}
+
+.product {
+  cursor: pointer;
+  width: 249px;
+  height: 538px;
+  opacity: 0;
+  animation-name: product_animation;
+  animation-duration: 0.6s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+.product img {
+  width: 249px;
+  height: 320px;
+  border-radius: 5px;
+}
+
+
+
+@keyframes product_animation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
