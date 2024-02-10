@@ -1,0 +1,23 @@
+.intro {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  animation-name: intro_animation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+  img {
+    border-radius: 15px;
+  }
+}
+
+@keyframes intro_animation {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    /* display: none; */
+  }
+}
