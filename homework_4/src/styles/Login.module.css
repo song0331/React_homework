@@ -1,0 +1,72 @@
+.container {
+  width: 380px;
+  height: 640px;
+  border-radius: 5px;
+  background-color: #fee500;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+
+  fieldset {
+    border: none;
+  }
+}
+
+.logo {
+  margin-top: 60px;
+  text-align: center;
+
+  img {
+    height: 120px;
+  }
+}
+
+.user_name,
+.user_id,
+.user_pw,
+.user_pw_confirm {
+  text-align: center;
+
+
+  input {
+    padding: 0px 7px;
+    width: 280px;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    font-family: 'Pretendard Variable';
+  }
+
+}
+
+.login_register {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  text-align: center;
+  margin: auto;
+  margin-top: 8px;
+
+  button,
+  a {
+    cursor: pointer;
+    height: 40px;
+    background-color: #423630;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Pretendard Variable';
+    font-size: 15px;
+    transition: all 0.2s;
+  }
+
+  button:hover,
+  a:hover {
+    background-color: #27201c;
+  }
+
+  a {
+    margin-top: 2px;
+    line-height: 40px;
+  }
+
+}
