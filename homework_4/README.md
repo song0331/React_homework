@@ -38,11 +38,11 @@
 
 <br>
 
-- 로그인
+- 로그인<br><br>
   ![](https://velog.velcdn.com/images/thdgusrbek/post/484b57f9-13f2-499e-aa19-31ccb7959ba8/image.gif)
   <br><br>
 
-- 채팅방 목록, 채팅, 다크모드
+- 채팅방 목록, 채팅, 다크모드<br><br>
   ![](https://velog.velcdn.com/images/thdgusrbek/post/41a67901-d946-4eca-b569-8c53cb76ede8/image.gif)
 
 ---
