@@ -1,7 +1,10 @@
-import { Link, useNavigate } from 'react-router-dom'
-import styles from './../styles/Login.module.css'
+import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
+import styles from './../styles/Login.module.css'
 import PocketBase from 'pocketbase';
+import Logo from './Logo';
+import Input from './Input';
+import LoginRegister from './LoginRegister';
 
 
 export default function Login() {
@@ -13,15 +16,15 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(userId);
-    console.log(userPw);
+    // console.log(userId);
+    // console.log(userPw);
     const authData = pb.collection('users').authWithPassword(userId, userPw);
 
     authData.then(() => {
       if (pb.authStore.isValid) navigate('/chatList');
-      console.log(pb.authStore.isValid);
-      console.log(pb.authStore.token);
-      console.log(pb.authStore.model.id);
+      // console.log(pb.authStore.isValid);
+      // console.log(pb.authStore.token);
+      // console.log(pb.authStore.model.id);
     }).catch((error) => {
       alert('올바른 회원정보가 아닙니다.')
       console.log('에러남!!!', error);
@@ -34,33 +37,33 @@ export default function Login() {
 
   return (
     <div className={styles.container}>
-
-      <figure className={styles.logo}>
-        <img src="/icons/talk.png" alt="카카오톡 로고" />
-        <figcaption className='sr_only'>카카오톡 로고</figcaption>
-      </figure>
-
+      <Logo />
       <form action="#" onSubmit={handleSubmit}>
         <fieldset>
           <legend className='sr_only'>로그인</legend>
-
-          <div className={styles.user_id}>
-            <label htmlFor="userId" className='sr_only'>아이디</label>
-            <input onChange={handleId} type="email" id='userId' placeholder='이메일' />
-          </div>
-
-          <div className={styles.user_pw}>
-            <label htmlFor="userPw" className='sr_only'>비밀번호</label>
-            <input onChange={handlePw} type="password" id='userPw' placeholder='비밀번호' />
-          </div>
-
-          <div className={styles.login_register}>
-            <button type='submit'>로그인</button>
-            <Link to='/register'>회원가입</Link>
-          </div>
+          <Input
+            htmlFor={userId}
+            label='아이디'
+            handle={handleId}
+            type='email'
+            id='userId'
+            placeholder='이메일'
+          />
+          <Input
+            htmlFor={userPw}
+            label='비밀번호'
+            handle={handlePw}
+            type='password'
+            id='userPw'
+            placeholder='비밀번호'
+          />
+          <LoginRegister
+            btn='로그인'
+            link='회원가입'
+            url='/register'
+          />
         </fieldset>
       </form>
-
     </div>
   )
 }
