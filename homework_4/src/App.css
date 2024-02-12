@@ -1,5 +1,24 @@
+/* 모든 요소에 대해 스크롤바를 숨깁니다. */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
 body {
   background-color: #303030;
+  margin-top: 100px;
+
+  .is_dark {
+    background-color: grey;
+    color: white;
+  }
 }
 
 .sr_only {
@@ -13,4 +32,20 @@ body {
   clip: rect(0, 0, 0, 0);
   clip-path: polygon(0 0, 0 0, 0 0);
   white-space: nowrap;
+}
+
+.themeBtn {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  background-color: #ddd;
+}
+
+.themeBtn:hover {
+  background-color: #747474;
 }
