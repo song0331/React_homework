@@ -1,15 +1,18 @@
 import { useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import styles from './../styles/Login.module.css'
 import PocketBase from 'pocketbase';
 import Logo from './Logo';
 import Input from './Input';
 import LoginRegister from './LoginRegister';
+import { ThemeContext } from '../contexts/ThemeContext';
 
 
 export default function Login() {
 
   const pb = new PocketBase(import.meta.env.VITE_POCKETBASE_URL);
+  const theme = useContext(ThemeContext);
+  const style = `${styles.container} ${theme}`
   const [userId, setUserId] = useState('')
   const [userPw, setUserPw] = useState('')
   const navigate = useNavigate();
@@ -36,7 +39,7 @@ export default function Login() {
 
 
   return (
-    <div className={styles.container}>
+    <div className={style}>
       <Logo />
       <form action="#" onSubmit={handleSubmit}>
         <fieldset>
